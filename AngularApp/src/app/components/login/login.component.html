@@ -1,0 +1,52 @@
+<div *ngIf="loginInvalid" class="alert alert-danger" role="alert">
+  <strong>Oh snap!</strong> Your username and password are invalid!.
+</div>
+ 
+<div *ngIf="registerInvalid" class="alert alert-danger" role="alert">
+  <strong>Oh snap!</strong> Something went wrong while registering your account!.
+</div>
+
+<div *ngIf="!isRegister" class="login-page">
+  <div class="row">
+    <div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4 centerLoginBox">
+          <img src="/assets/images/flat-avatar.png" class="user-avatar" />
+      <h1>Login To Nymity<small> Access Our Services</small></h1>
+      <form role="form">
+        <div class="form-content">
+          <div class="form-group">
+            <input type="text" [(ngModel)]="userName" name="userName" class="form-control input-underline input-lg" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="password" [(ngModel)]="password" name="password" class="form-control input-underline input-lg" placeholder="Password">
+          </div>
+        </div>
+        <a href="javascript:void(0)" (click)="login()" class="btn btn-default defaultButton">Login</a>
+        <a href="javascript:void(0)" (click)="toggleRegister()" class="btn btn-default">Not registered?</a>
+      </form>
+    </div>  
+  </div>
+</div>
+
+<div *ngIf="isRegister" class="login-page">
+  <div class="row">
+    <div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4 centerLoginBox">
+          <img src="/assets/images/flat-avatar.png" class="user-avatar" />
+      <h1>Register To Nymity<small> Access Our Services</small></h1>
+      <form role="form">
+        <div class="form-content">
+          <div class="form-group">
+            <input type="text" [(ngModel)]="userName" name="userName" class="form-control input-underline input-lg" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="password" [(ngModel)]="password" name="password" class="form-control input-underline input-lg" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <input type="password" [(ngModel)]="confirmPassword" name="confirmPassword" class="form-control input-underline input-lg" placeholder="Confirm Password">
+          </div>
+        </div>
+        <a href="javascript:void(0)" (click)="register()" class="btn btn-default defaultButton">Register</a>
+        <a href="javascript:void(0)" (click)="toggleRegister()" class="btn btn-default">Already have a registration?</a>
+      </form>
+    </div>  
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.customersTable {
+    overflow: auto;
+    height: 300px;
+}
+ 
+    .customersTable tbody tr:hover{
+        background-color: lightgray;
+        cursor: pointer;
+    }
+ 
+.divFilteredCustomers{
+    margin: 30px;
+}
+ 
+.clearButton {
+    background-color: rgb(57, 94, 161);  
+    border-radius: 5px;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+  }
+  
+  .clearButton:focus,
+  .clearButton:hover {
+    background-color: rgb(18, 43, 90); 
+  }

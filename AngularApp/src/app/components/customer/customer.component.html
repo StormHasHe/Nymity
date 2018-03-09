@@ -1,0 +1,54 @@
+<h1>Customers</h1>
+<br>
+<h3 *ngIf="customers.length == 0 && showMessage">There's no registered customers!</h3>
+ 
+<div class="customersTable">
+  <table *ngIf="customers.length > 0" class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">CustomerID</th>
+        <th scope="col">Contact Name</th>
+        <th scope="col">Customer Title</th>
+        <th scope="col">Company Name</th>
+        <th scope="col">Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let customer of customers" (click)="getCustomerById(customer.customerID)">
+        <th scope="row">{{customer.customerID}}</th>
+        <td>{{customer.contactName}}</td>
+        <td>{{customer.contactTitle}}</td>
+        <td>{{customer.companyName}}</td>
+        <th scope="col">{{customer.phone}}</th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="divFilteredCustomers">
+  <h1 *ngIf="filteredCustomers.length > 0">filteredCustomers</h1>
+  <a *ngIf="filteredCustomers.length > 0" href="javascript:void(0)" (click)="clearFilter()" class="btn btn-default clearButton">Clear Filters</a>
+</div>
+
+<div class="customersTable">
+  <table *ngIf="customers.length > 0" class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">CustomerID</th>
+        <th scope="col">Contact Name</th>
+        <th scope="col">Customer Title</th>
+        <th scope="col">Company Name</th>
+        <th scope="col">Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let customer of filteredCustomers">
+        <th scope="row">{{customer.customerID}}</th>
+        <td>{{customer.contactName}}</td>
+        <td>{{customer.contactTitle}}</td>
+        <td>{{customer.companyName}}</td>
+        <th scope="col">{{customer.phone}}</th>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,25 @@
+.centerLoginBox {
+    margin: 0 auto;
+}
+ 
+.centerLoginBox img, .centerLoginBox form a {
+    display: block;
+    margin: 0 auto;
+}
+ 
+.centerLoginBox h1 {
+    text-align: center;
+}
+ 
+.defaultButton {
+    background-color: rgb(93, 199, 172);  
+    border-radius: 5px;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+  }
+  
+  .defaultButton:focus,
+  .defaultButton:hover {
+    background-color: rgb(62, 143, 132);
+  }
