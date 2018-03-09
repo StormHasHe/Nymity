@@ -1,0 +1,14 @@
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\bin\Debug\EP.IdentityIsolation.Domain.dll.config
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\bin\Debug\EP.IdentityIsolation.Domain.dll
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\bin\Debug\EP.IdentityIsolation.Domain.pdb
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\bin\Debug\EntityFramework.dll
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\bin\Debug\EntityFramework.xml
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\obj\Debug\EP.IdentityIsolation.Domain.dll
+C:\Projetos\Nymity\API2\src\EP.IdentityIsolation.Domain\obj\Debug\EP.IdentityIsolation.Domain.pdb

@@ -1,0 +1,5 @@
+C:\Projetos\Nymity\IdentityIsolation\src\EP.IdentityIsolation.Domain\bin\Debug\EP.IdentityIsolation.Domain.dll
+C:\Projetos\Nymity\IdentityIsolation\src\EP.IdentityIsolation.Domain\bin\Debug\EP.IdentityIsolation.Domain.pdb
+C:\Projetos\Nymity\IdentityIsolation\src\EP.IdentityIsolation.Domain\obj\Debug\EP.IdentityIsolation.Domain.csprojResolveAssemblyReference.cache
+C:\Projetos\Nymity\IdentityIsolation\src\EP.IdentityIsolation.Domain\obj\Debug\EP.IdentityIsolation.Domain.dll
+C:\Projetos\Nymity\IdentityIsolation\src\EP.IdentityIsolation.Domain\obj\Debug\EP.IdentityIsolation.Domain.pdb
